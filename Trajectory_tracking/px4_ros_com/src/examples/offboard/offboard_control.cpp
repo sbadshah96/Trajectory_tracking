@@ -51,8 +51,8 @@
 #define FLIGHT_ALTITUDE -0.5f // -1.5f
 #define Z_PARAM         -1.5f
 #define RATE            20  // loop rate hz
-#define RADIUS          1.0 // radius of figure 8 in meters
-#define CYCLE_S         20   // time to complete one figure 8 cycle in seconds
+#define RADIUS          1.0 // radius of circular trajectory in meters
+#define CYCLE_S         20   // time to complete one cycle in seconds
 #define STEPS           (CYCLE_S*RATE)
 
 #define PI  3.14159265358979323846264338327950
